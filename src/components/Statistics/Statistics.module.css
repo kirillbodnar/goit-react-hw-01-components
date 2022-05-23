@@ -1,0 +1,31 @@
+.statistics {
+  width: fit-content;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.statList {
+  display: flex;
+}
+
+.title {
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(40, 40, 40);
+  text-transform: uppercase;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 60px;
+  height: 60px;
+}

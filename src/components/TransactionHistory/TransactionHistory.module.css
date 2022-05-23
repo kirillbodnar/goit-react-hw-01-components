@@ -1,0 +1,29 @@
+.table {
+  width: fit-content;
+  border-spacing: 1px;
+}
+
+.cell {
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+}
+
+.head > .row {
+  background-color: #4d4985;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.body > .row {
+  color: #85929e;
+}
+
+.body > .row:nth-child(n) {
+  background-color: #f3f5ff;
+}
+
+.body > .row:nth-child(2n) {
+  background-color: #d8f6fceb;
+}

@@ -1,0 +1,80 @@
+.card {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.profile {
+  text-align: center;
+  background-color: white;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.tag {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+.location {
+  font-size: 12px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: azure;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+}
+
+.quantity {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.statsItem {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+
+  border-top: 1px solid #d6dbdf;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 1px solid #d6dbdf;
+}
