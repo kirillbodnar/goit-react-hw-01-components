@@ -12,8 +12,8 @@ export default function Statistics({ stats, title }) {
             key={id}
             style={{ backgroundColor: getRandomHexColor() }}
           >
-            <span className="label">{label} </span>
-            <span className="percentage">{percentage}%</span>
+            <span className={s.label}>{label} </span>
+            <span className={s.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>

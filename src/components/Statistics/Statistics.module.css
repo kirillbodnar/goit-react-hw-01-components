@@ -26,6 +26,18 @@
   align-items: center;
   flex-direction: column;
 
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+}
+
+.label {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.percentage {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
 }
